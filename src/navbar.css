@@ -1,0 +1,76 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a; /* Dark gray background */
+  color: #ffffff; /* White text */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navbar ul .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #ffffff; /* White text */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  color: #c0392b; /* Red on hover */
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 5px;
+  flex-grow: 1;
+}
+
+.search-box input[type="text"] {
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  width: 1100px;
+  background-color: #f1f1f1; /* Light gray background for the input field */
+  color: #333; /* Dark gray text color */
+}
+
+.search-box input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+.search-box input[type="text"]:focus {
+  border: 1px solid #3498db; /* Light blue border on focus */
+}
+
+/* New styling for the buttons */
+.navbar ul .Button { /* Use uppercase "B" for class name */
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-end; /* Aligns the items to the right */
+}

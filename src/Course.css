@@ -1,0 +1,157 @@
+/* FeaturedArticles.css */
+
+.featured-articles {
+  text-align: center;
+  margin: 20px;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.article-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 30%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.article h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.article-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.article-description {
+  color: #888;
+}
+
+.rating {
+  color: #f39c12;
+}
+
+.see-more-button {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.see-more-button:hover {
+  background-color: #2980b9;
+}
+
+.featured-tutorials {
+  margin: 20px 0;
+}
+
+.featured-tutorials {
+  margin: 20px 0;
+}
+
+.tutorial-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tutorial {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.tutorial h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.tutorial-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tutorial-description {
+  color: #888;
+}
+
+.tutorial-link {
+  display: block;
+  margin-top: 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.tutorial-link:hover {
+  text-decoration: underline;
+}
+.see-more-tutorials {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.see-more-tutorials:hover {
+  background-color: #2980b9;
+}
+
+
+.newsletter-signup {
+  margin: 40px 0;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.newsletter-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.newsletter-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #2980b9;
+}
